@@ -1,0 +1,28 @@
+.text-red{
+    color: rgb(169, 93, 34);
+}
+
+.text-blue{
+    color: blue;
+}
+
+#first-heading,p {
+    color: rgb(7, 160, 40);
+}
+
+body {
+    font-family: "Arial", "Meiryo",sans-serif;
+}
+
+p {
+    +  margin-left auto
+    +  margin-right auto
+      width: 500px;
+      height: 100px;
+      background-color: rgb(236, 240, 243);
+    }
+    
+    h1::before {
+        content: "◆";
+        color: orange;
+    }
