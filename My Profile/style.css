@@ -1,0 +1,92 @@
+body{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+h1{
+    font-size: 34px;
+    text-align: center;
+}
+
+nav{
+    font-size: 34px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+li{
+    font-size: 18px;
+}
+
+#navmain {
+    border: solid 1px;
+}
+
+#main {
+    width: 100%;
+    padding: 0;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+#about > img {
+    border-radius: 50%;
+}
+
+#works {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+#works  > div {
+    padding-bottom: 60px;
+    width: 25%;
+    margin: 0 10px 0 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    #works > div {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
